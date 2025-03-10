@@ -10,7 +10,8 @@ body{
     flex-direction: column;
     align-items:center;   
     justify-content: center;
-    gap: 40px;
+    gap: 40px;;
+    background-color: white;
 
 }
 
@@ -23,6 +24,7 @@ body{
     gap: 40px;
     align-items: center;
     justify-content: center;
+    border-radius: 50px;
 }
 
 #top{
@@ -56,6 +58,8 @@ body{
     color: aliceblue;
     background-color: black;
 }
+
+
 #white{
     background-color: white;
 }
@@ -66,4 +70,21 @@ body{
 #green{
     color: aliceblue;
     background-color: green;
+}
+
+#btn:hover{
+    transform: translateY(-10px) scale(1.2);
+}
+
+#black:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+#white:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+#red:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+#green:hover{
+    transform: translateY(-10px) scale(1.1);
 }
